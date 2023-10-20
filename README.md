@@ -49,8 +49,8 @@ The face detection model has been exported to different formats for deployment f
 
 If you want to export and inference the face detection model to different formats, you can use the following scripts:
 
-- **Export to [ONNX](onnx.ipynb)**
+- **[ONNX](onnx.ipynb)**
 
-- **Export to [TFLite](tflite.ipynb)**
+- **[TFLite](tflite.ipynb)**
 
-- **Export to [TensorRT](tensorrt.ipynb)**
+- **[TensorRT](tensorrt.ipynb)**
