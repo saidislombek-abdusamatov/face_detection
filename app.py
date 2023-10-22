@@ -49,9 +49,9 @@ with tab1:
                 idn, x = 0, 0
                 while vf.isOpened():
                     success, frame = vf.read()
-                    frc = frame.copy()
 
                     if success:
+                        frc = frame.copy()
                         # Detect and display faces in the video frames
                         for box in model.track(frame, persist=True, verbose=False)[0].boxes:
                             if box.conf < 0.5:
